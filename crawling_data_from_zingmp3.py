@@ -2,7 +2,6 @@
 from selenium import webdriver
 from time import sleep
 import pandas as pd
-from bs4 import BeautifulSoup
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
@@ -114,8 +113,8 @@ while number_song <= 2000:
         print(number_song)
 
 df.to_csv("Data\mp3_0-2k.csv")        
-# print(df.head(40))
+print(df.head(40))
 
-# browser.close()
-# browser.quit()
+browser.close()
+browser.quit()
 

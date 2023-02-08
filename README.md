@@ -12,3 +12,9 @@ https://user-images.githubusercontent.com/83819024/217488948-4385bf1b-6383-4b4c-
 
 
 ## Guide
+- Import packages: pip install -r requirements.txt
+
+## Note
+- Download webdriver browser is the same verson of your browser.
+- The card Xpath of the websites could differ as you run this code, check and modify them.
+- Download Jupyter-Notebook to open and run .ipyng file.
